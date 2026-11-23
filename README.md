@@ -6,7 +6,7 @@ with a Django REST API and a React frontend.
 ## Quick start
 
 1. Download the datasets (see data/README.md)
-2. python -m venv venv; venv\Scripts\activate
+2. python -m venv venv; venv\Scripts\activate || .\venv313\Scripts\Activate.ps1
 3. pip install -r requirements.txt
 4. cd backend; copy .env.example .env; python manage.py runserver
 5. cd frontend; npm install; npm run dev -> http://localhost:5173
